@@ -30,18 +30,6 @@ Instale as dependências:
 pip install -r requirements.txt
 ```
 
-Exemplo de `requirements.txt`:
-
-```
-pandas>=2.0.0
-numpy>=1.25.0
-scikit-learn>=1.3.0
-matplotlib>=3.8.0
-seaborn>=0.13.0
-```
-
----
-
 ## Estrutura do Projeto
 
 ```
@@ -135,11 +123,3 @@ Além disso, o **nível de risco** é classificado como:
 * ALTO
 
 Baseado em pontuação combinando predição, confiança, preço e vendedor.
-
----
-
-## Contribuição
-
-1. Abra uma **issue** para reportar bugs ou sugerir melhorias.
-2. Envie **pull requests** com novas features ou otimizações.
-3. Mantenha consistência no logging e na criação de features.
